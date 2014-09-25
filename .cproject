@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="com.wavecom.openat.ide.ebs.armeabigcc.binary.debugcfg.1115501396">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.wavecom.openat.ide.ebs.armeabigcc.binary.debugcfg.1115501396" moduleId="org.eclipse.cdt.core.settings" name="[Target]_ARM_EABI_GCC_Debug">
+				<externalSettings/>
+				<extensions>
+					<extension id="com.wavecom.openat.ide.ebs.armelfgcc.LinkErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.wavecom.openat.ide.ebs.armelfgcc.CompileErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.wavecom.openat.ide.ebs.build.core.GenDwlErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.wavecom.openat.ide.ebs.build.core.WZPackerErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="dwl" artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug,com.wavecom.openat.ide.ebs.executionMode=com.wavecom.openat.ide.ebs.executionMode.targetMode,org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,com.wavecom.openat.ide.buildArtefactType=com.wavecom.openat.ide.ebs.core.binaryproject" description="" id="com.wavecom.openat.ide.ebs.armeabigcc.binary.debugcfg.1115501396" name="[Target]_ARM_EABI_GCC_Debug" parent="com.wavecom.openat.ide.ebs.armeabigcc.binary.debugcfg">
+					<folderInfo id="com.wavecom.openat.ide.ebs.armeabigcc.binary.debugcfg.1115501396." name="/" resourcePath="">
+						<toolChain id="com.wavecom.openat.ide.ebs.armeabigcc.binary.dbgtoolChain1.321980321" name="[Target] ARM EABI GCC" superClass="com.wavecom.openat.ide.ebs.armeabigcc.binary.dbgtoolChain1">
+							<targetPlatform binaryParser="org.eclipse.cdt.core.ELF" id="com.wavecom.openat.ide.ebs.build.core.targetPlatform.599860218" isAbstract="false" name="Target Platform" superClass="com.wavecom.openat.ide.ebs.build.core.targetPlatform"/>
+							<builder buildPath="${workspace_loc:/GreenhouseMQTT}/[Target]_ARM_EABI_GCC_Debug" id="com.wavecom.openat.ide.ebs.build.core.builder.1539706747" keepEnvironmentInBuildfile="false" name="[Sierra Wireless] Internal Builder" superClass="com.wavecom.openat.ide.ebs.build.core.builder"/>
+							<tool id="com.wavecom.openat.ide.ebs.build.core.wzpacker.zip.1217438117" name="Binary packer [ZIP]" superClass="com.wavecom.openat.ide.ebs.build.core.wzpacker.zip"/>
+							<tool id="com.wavecom.openat.ide.ebs.build.core.wzpacker.lzma.1861711203" name="Binary packer [LZMA]" superClass="com.wavecom.openat.ide.ebs.build.core.wzpacker.lzma"/>
+							<tool id="com.wavecom.openat.ide.ebs.build.core.wzpacker.lzma.thumb.1072526850" name="Binary packer [LZMA Thumb]" superClass="com.wavecom.openat.ide.ebs.build.core.wzpacker.lzma.thumb"/>
+							<tool id="com.wavecom.openat.ide.ebs.build.core.addchk.877219527" name="Checksum computer" superClass="com.wavecom.openat.ide.ebs.build.core.addchk"/>
+							<tool id="com.wavecom.openat.ide.ebs.build.core.bin.gendwl.wpb.1421154675" name="DWL packed binary builder" superClass="com.wavecom.openat.ide.ebs.build.core.bin.gendwl.wpb">
+								<option defaultValue="com.wavecom.openat.ide.ebs.build.core.gendwl.header.bincomp" id="com.wavecom.openat.ide.ebs.build.core.gendwl.header.enabler.wpb.768114099" name="Header type" superClass="com.wavecom.openat.ide.ebs.build.core.gendwl.header.enabler.wpb" valueType="enumerated"/>
+							</tool>
+							<tool id="com.wavecom.openat.ide.ebs.build.core.bin.gendwl.bin.2141689746" name="DWL binary builder" superClass="com.wavecom.openat.ide.ebs.build.core.bin.gendwl.bin"/>
+							<tool id="com.wavecom.openat.ide.ebs.build.core.bin.genbin.wpb.996926047" name="DWL packed binary builder [V1]" superClass="com.wavecom.openat.ide.ebs.build.core.bin.genbin.wpb">
+								<option defaultValue="com.wavecom.openat.ide.ebs.build.core.genbin.header.bincomp" id="com.wavecom.openat.ide.ebs.build.core.genbin.header.enabler.wpb.853215093" name="Header type" superClass="com.wavecom.openat.ide.ebs.build.core.genbin.header.enabler.wpb" valueType="enumerated"/>
+							</tool>
+							<tool id="com.wavecom.openat.ide.ebs.build.core.bin.genbin.bin.1764356888" name="DWL binary builder [V1]" superClass="com.wavecom.openat.ide.ebs.build.core.bin.genbin.bin"/>
+							<tool id="com.wavecom.openat.ide.ebs.build.core.bin2elf.1448514315" name="ELF converter" superClass="com.wavecom.openat.ide.ebs.build.core.bin2elf"/>
+							<tool id="com.wavecom.openat.ide.ebs.build.core.hdrcnv.1345971215" name="Header converter" superClass="com.wavecom.openat.ide.ebs.build.core.hdrcnv"/>
+							<tool id="com.wavecom.openat.ide.ebs.build.core.cwe.46155564" name="CWE builder" superClass="com.wavecom.openat.ide.ebs.build.core.cwe"/>
+							<tool id="com.wavecom.openat.ide.ebs.build.core.bin.gendwl.cwe.251304819" name="DWL binary builder [CWE]" superClass="com.wavecom.openat.ide.ebs.build.core.bin.gendwl.cwe"/>
+							<tool id="com.wavecom.openat.ide.ebs.build.core.wzpacker.cwe.zip.1465838926" name="Binary packer [CWE] [ZIP]" superClass="com.wavecom.openat.ide.ebs.build.core.wzpacker.cwe.zip"/>
+							<tool id="com.wavecom.openat.ide.ebs.build.core.wzpacker.cwe.lzma.453687155" name="Binary packer [CWE] [LZMA]" superClass="com.wavecom.openat.ide.ebs.build.core.wzpacker.cwe.lzma"/>
+							<tool id="com.wavecom.openat.ide.ebs.build.core.wzpacker.cwe.lzma.thumb.2121100065" name="Binary packer [CWE] [LZMA Thumb]" superClass="com.wavecom.openat.ide.ebs.build.core.wzpacker.cwe.lzma.thumb"/>
+							<tool id="com.wavecom.openat.ide.ebs.build.core.multibin.addchk.565356326" name="Checksum computer [MultiBin]" superClass="com.wavecom.openat.ide.ebs.build.core.multibin.addchk"/>
+							<tool id="com.wavecom.openat.ide.ebs.build.core.multibin.gendwl.bin.1927153688" name="DWL binary builder [MultiBin]" superClass="com.wavecom.openat.ide.ebs.build.core.multibin.gendwl.bin"/>
+							<tool id="com.wavecom.openat.ide.ebs.build.core.multibin.cat.1460144223" name="Multipart binary aggregator" superClass="com.wavecom.openat.ide.ebs.build.core.multibin.cat"/>
+							<tool id="com.wavecom.openat.ide.ebs.build.core.multibin.aggregated.gendwl.bin.1787302384" name="DWL binary builder [Aggregated]" superClass="com.wavecom.openat.ide.ebs.build.core.multibin.aggregated.gendwl.bin"/>
+							<tool id="com.wavecom.openat.ide.ebs.build.core.multibin.gendwl.wpb.674099873" name="DWL packed binary builder [MultiBin]" superClass="com.wavecom.openat.ide.ebs.build.core.multibin.gendwl.wpb">
+								<option defaultValue="com.wavecom.openat.ide.ebs.build.core.gendwl.header.bincomp" id="com.wavecom.openat.ide.ebs.build.core.gendwl.header.enabler.wpb.1503291533" name="Header type" superClass="com.wavecom.openat.ide.ebs.build.core.gendwl.header.enabler.wpb" valueType="enumerated"/>
+							</tool>
+							<tool id="com.wavecom.openat.ide.ebs.build.core.wzpacker.multibin.664899520" name="Binary packer [MultiBin] [Zip]" superClass="com.wavecom.openat.ide.ebs.build.core.wzpacker.multibin"/>
+							<tool id="com.wavecom.openat.ide.ebs.build.core.wzpacker.multibin.lzma.1068317806" name="Binary packer [MultiBin] [LZMA]" superClass="com.wavecom.openat.ide.ebs.build.core.wzpacker.multibin.lzma"/>
+							<tool id="com.wavecom.openat.ide.ebs.build.core.wzpacker.multibin.lzma.thumb.1990748087" name="Binary packer [MultiBin] [LZMA Thumb]" superClass="com.wavecom.openat.ide.ebs.build.core.wzpacker.multibin.lzma.thumb"/>
+							<tool id="com.wavecom.openat.ide.ebs.build.core.addchk.aggr.1586240013" name="Checksum computer [Aggregated]" superClass="com.wavecom.openat.ide.ebs.build.core.addchk.aggr"/>
+							<tool id="com.wavecom.openat.ide.ebs.armeabigcc.CCompiler.1934980746" name="ARM EABI GCC C Compiler" superClass="com.wavecom.openat.ide.ebs.armeabigcc.CCompiler">
+								<option defaultValue="gnu.c.optimization.level.none" id="gnu.c.compiler.option.optimization.level.1854403301" name="Optimization Level" superClass="gnu.c.compiler.option.optimization.level" valueType="enumerated"/>
+								<option id="com.wavecom.openat.ide.ebs.armelfgcc.CCompiler.oat.includes.1560414612" name="Include paths (-I)" superClass="com.wavecom.openat.ide.ebs.armelfgcc.CCompiler.oat.includes" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${package_loc:com.wavecom.openat.ide.spm.lib.os.model/6.51.0.201206010944}/ADL/itf&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${package_loc:com.wavecom.openat.ide.spm.lib.os.model/6.51.0.201206010944}/ADL/basic&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${package_loc:com.wavecom.openat.ide.spm.lib.plugin.model.WIP/5.54.0.201206011257}/WIP/itf&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/GreenhouseMQTT/inc}&quot;"/>
+								</option>
+								<option id="com.wavecom.openat.ide.ebs.armelfgcc.CCompilerSymbols.1562026851" name="Defined symbols (-D)" superClass="com.wavecom.openat.ide.ebs.armelfgcc.CCompilerSymbols" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="__OAT_API_VERSION__=651"/>
+									<listOptionValue builtIn="false" value="__WIP_PLUGIN_VERSION__=554"/>
+									<listOptionValue builtIn="false" value="__DEBUG_APP__"/>
+									<listOptionValue builtIn="false" value="DS_TARGET_BB0"/>
+									<listOptionValue builtIn="false" value="DS_DEBUG"/>
+									<listOptionValue builtIn="false" value="__arm"/>
+									<listOptionValue builtIn="false" value="__GNU_GCC__"/>
+									<listOptionValue builtIn="false" value="__irq=&quot;&quot;"/>
+								</option>
+								<inputType id="com.wavecom.openat.ide.ebs.armeabigcc.CCompiler.inputType.562449529" superClass="com.wavecom.openat.ide.ebs.armeabigcc.CCompiler.inputType"/>
+							</tool>
+							<tool id="com.wavecom.openat.ide.ebs.armeabigcc.CppCompiler.890973274" name="ARM EABI GCC C++ Compiler" superClass="com.wavecom.openat.ide.ebs.armeabigcc.CppCompiler">
+								<option defaultValue="gnu.c.optimization.level.none" id="gnu.c.compiler.option.optimization.level.1004908523" name="Optimization Level" superClass="gnu.c.compiler.option.optimization.level" valueType="enumerated"/>
+								<option id="com.wavecom.openat.ide.ebs.armelfgcc.CCompiler.oat.includes.1567837176" name="Include paths (-I)" superClass="com.wavecom.openat.ide.ebs.armelfgcc.CCompiler.oat.includes" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${package_loc:com.wavecom.openat.ide.spm.lib.os.model/6.51.0.201206010944}/ADL/itf&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${package_loc:com.wavecom.openat.ide.spm.lib.os.model/6.51.0.201206010944}/ADL/basic&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${package_loc:com.wavecom.openat.ide.spm.lib.plugin.model.WIP/5.54.0.201206011257}/WIP/itf&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/GreenhouseMQTT/inc}&quot;"/>
+								</option>
+								<option id="com.wavecom.openat.ide.ebs.armelfgcc.CCompilerSymbols.1412917602" name="Defined symbols (-D)" superClass="com.wavecom.openat.ide.ebs.armelfgcc.CCompilerSymbols" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="__OAT_API_VERSION__=651"/>
+									<listOptionValue builtIn="false" value="__WIP_PLUGIN_VERSION__=554"/>
+									<listOptionValue builtIn="false" value="__DEBUG_APP__"/>
+									<listOptionValue builtIn="false" value="DS_TARGET_BB0"/>
+									<listOptionValue builtIn="false" value="DS_DEBUG"/>
+									<listOptionValue builtIn="false" value="__arm"/>
+									<listOptionValue builtIn="false" value="__GNU_GCC__"/>
+									<listOptionValue builtIn="false" value="__irq=&quot;&quot;"/>
+								</option>
+								<inputType id="com.wavecom.openat.ide.ebs.armeabigcc.CppCompiler.inputType.enabled.1682318992" superClass="com.wavecom.openat.ide.ebs.armeabigcc.CppCompiler.inputType.enabled"/>
+							</tool>
+							<tool id="com.wavecom.openat.ide.ebs.armeabigcc.archiver.1096565696" name="ARM EABI GCC Archiver" superClass="com.wavecom.openat.ide.ebs.armeabigcc.archiver"/>
+							<tool id="com.wavecom.openat.ide.ebs.armeabigcc.CppLinker.1299743494" name="ARM EABI GCC C++ Linker" superClass="com.wavecom.openat.ide.ebs.armeabigcc.CppLinker">
+								<inputType id="cdt.managedbuild.tool.gnu.c.linker.input.355925068" superClass="cdt.managedbuild.tool.gnu.c.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="com.wavecom.openat.ide.ebs.armeabigcc.objcopy.2020571163" name="Binary copier (ARM EABI)" superClass="com.wavecom.openat.ide.ebs.armeabigcc.objcopy"/>
+							<tool id="com.wavecom.openat.ide.ebs.armeabigcc.dd.1091747836" name="Binary aligner (ARM EABI)" superClass="com.wavecom.openat.ide.ebs.armeabigcc.dd"/>
+							<tool id="com.wavecom.openat.ide.ebs.armeabigcc.dd.multi.217157229" name="Binary aligner (ARM EABI) [Multibin]" superClass="com.wavecom.openat.ide.ebs.armeabigcc.dd.multi"/>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="inc"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings">
+				<externalSettings containerId="com.wavecom.openat.ide.ebs.build.core.settingsprovider" factoryId="org.eclipse.cdt.core.extension.container.factory">
+					<externalSetting>
+						<entry flags="BUILTIN|READONLY|RESOLVED" kind="includePath" name="${package_loc:com.wavecom.openat.ide.spm.lib.os.model/6.51.0.201206010944}/ADL/itf"/>
+						<entry flags="BUILTIN|READONLY|RESOLVED" kind="includePath" name="${package_loc:com.wavecom.openat.ide.spm.lib.os.model/6.51.0.201206010944}/ADL/basic"/>
+						<entry flags="BUILTIN|READONLY|RESOLVED" kind="includePath" name="${package_loc:com.wavecom.openat.ide.spm.lib.plugin.model.WIP/5.54.0.201206011257}/WIP/itf"/>
+						<entry flags="" kind="macro" name="__OAT_API_VERSION__" value="651"/>
+						<entry flags="" kind="macro" name="__WIP_PLUGIN_VERSION__" value="554"/>
+						<entry flags="" kind="macro" name="__DEBUG_APP__" value=""/>
+						<entry flags="" kind="macro" name="DS_TARGET_BB0" value=""/>
+						<entry flags="" kind="macro" name="DS_DEBUG" value=""/>
+					</externalSetting>
+				</externalSettings>
+			</storageModule>
+		</cconfiguration>
+		<cconfiguration id="com.wavecom.openat.ide.ebs.armeabigcc.binary.releasecfg.625569173">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.wavecom.openat.ide.ebs.armeabigcc.binary.releasecfg.625569173" moduleId="org.eclipse.cdt.core.settings" name="[Target]_ARM_EABI_GCC_Release">
+				<externalSettings/>
+				<extensions>
+					<extension id="com.wavecom.openat.ide.ebs.armelfgcc.LinkErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.wavecom.openat.ide.ebs.armelfgcc.CompileErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.wavecom.openat.ide.ebs.build.core.GenDwlErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.wavecom.openat.ide.ebs.build.core.WZPackerErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="dwl" artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release,com.wavecom.openat.ide.ebs.executionMode=com.wavecom.openat.ide.ebs.executionMode.targetMode,org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,com.wavecom.openat.ide.buildArtefactType=com.wavecom.openat.ide.ebs.core.binaryproject" description="" id="com.wavecom.openat.ide.ebs.armeabigcc.binary.releasecfg.625569173" name="[Target]_ARM_EABI_GCC_Release" parent="com.wavecom.openat.ide.ebs.armeabigcc.binary.releasecfg">
+					<folderInfo id="com.wavecom.openat.ide.ebs.armeabigcc.binary.releasecfg.625569173." name="/" resourcePath="">
+						<toolChain id="com.wavecom.openat.ide.ebs.armeabigcc.binary.releasetoolChain1.874011516" name="[Target] ARM EABI GCC" superClass="com.wavecom.openat.ide.ebs.armeabigcc.binary.releasetoolChain1">
+							<targetPlatform binaryParser="org.eclipse.cdt.core.ELF" id="com.wavecom.openat.ide.ebs.build.core.targetPlatform.463243117" isAbstract="false" name="Target Platform" superClass="com.wavecom.openat.ide.ebs.build.core.targetPlatform"/>
+							<builder buildPath="${workspace_loc:/GreenhouseMQTT}/[Target]_ARM_EABI_GCC_Release" id="com.wavecom.openat.ide.ebs.build.core.builder.1086166825" keepEnvironmentInBuildfile="false" name="[Sierra Wireless] Internal Builder" superClass="com.wavecom.openat.ide.ebs.build.core.builder"/>
+							<tool id="com.wavecom.openat.ide.ebs.build.core.wzpacker.zip.1085255542" name="Binary packer [ZIP]" superClass="com.wavecom.openat.ide.ebs.build.core.wzpacker.zip"/>
+							<tool id="com.wavecom.openat.ide.ebs.build.core.wzpacker.lzma.925206630" name="Binary packer [LZMA]" superClass="com.wavecom.openat.ide.ebs.build.core.wzpacker.lzma"/>
+							<tool id="com.wavecom.openat.ide.ebs.build.core.wzpacker.lzma.thumb.839368993" name="Binary packer [LZMA Thumb]" superClass="com.wavecom.openat.ide.ebs.build.core.wzpacker.lzma.thumb"/>
+							<tool id="com.wavecom.openat.ide.ebs.build.core.addchk.671426046" name="Checksum computer" superClass="com.wavecom.openat.ide.ebs.build.core.addchk"/>
+							<tool id="com.wavecom.openat.ide.ebs.build.core.bin.gendwl.wpb.682539648" name="DWL packed binary builder" superClass="com.wavecom.openat.ide.ebs.build.core.bin.gendwl.wpb">
+								<option defaultValue="com.wavecom.openat.ide.ebs.build.core.gendwl.header.bincomp" id="com.wavecom.openat.ide.ebs.build.core.gendwl.header.enabler.wpb.593600278" name="Header type" superClass="com.wavecom.openat.ide.ebs.build.core.gendwl.header.enabler.wpb" valueType="enumerated"/>
+							</tool>
+							<tool id="com.wavecom.openat.ide.ebs.build.core.bin.gendwl.bin.1623425914" name="DWL binary builder" superClass="com.wavecom.openat.ide.ebs.build.core.bin.gendwl.bin"/>
+							<tool id="com.wavecom.openat.ide.ebs.build.core.bin.genbin.wpb.277551272" name="DWL packed binary builder [V1]" superClass="com.wavecom.openat.ide.ebs.build.core.bin.genbin.wpb">
+								<option defaultValue="com.wavecom.openat.ide.ebs.build.core.genbin.header.bincomp" id="com.wavecom.openat.ide.ebs.build.core.genbin.header.enabler.wpb.313671147" name="Header type" superClass="com.wavecom.openat.ide.ebs.build.core.genbin.header.enabler.wpb" valueType="enumerated"/>
+							</tool>
+							<tool id="com.wavecom.openat.ide.ebs.build.core.bin.genbin.bin.1775121302" name="DWL binary builder [V1]" superClass="com.wavecom.openat.ide.ebs.build.core.bin.genbin.bin"/>
+							<tool id="com.wavecom.openat.ide.ebs.build.core.bin2elf.1722703937" name="ELF converter" superClass="com.wavecom.openat.ide.ebs.build.core.bin2elf"/>
+							<tool id="com.wavecom.openat.ide.ebs.build.core.hdrcnv.391140701" name="Header converter" superClass="com.wavecom.openat.ide.ebs.build.core.hdrcnv"/>
+							<tool id="com.wavecom.openat.ide.ebs.build.core.cwe.601449539" name="CWE builder" superClass="com.wavecom.openat.ide.ebs.build.core.cwe"/>
+							<tool id="com.wavecom.openat.ide.ebs.build.core.bin.gendwl.cwe.1783677805" name="DWL binary builder [CWE]" superClass="com.wavecom.openat.ide.ebs.build.core.bin.gendwl.cwe"/>
+							<tool id="com.wavecom.openat.ide.ebs.build.core.wzpacker.cwe.zip.1593331264" name="Binary packer [CWE] [ZIP]" superClass="com.wavecom.openat.ide.ebs.build.core.wzpacker.cwe.zip"/>
+							<tool id="com.wavecom.openat.ide.ebs.build.core.wzpacker.cwe.lzma.1116538165" name="Binary packer [CWE] [LZMA]" superClass="com.wavecom.openat.ide.ebs.build.core.wzpacker.cwe.lzma"/>
+							<tool id="com.wavecom.openat.ide.ebs.build.core.wzpacker.cwe.lzma.thumb.1873321477" name="Binary packer [CWE] [LZMA Thumb]" superClass="com.wavecom.openat.ide.ebs.build.core.wzpacker.cwe.lzma.thumb"/>
+							<tool id="com.wavecom.openat.ide.ebs.build.core.multibin.addchk.424768673" name="Checksum computer [MultiBin]" superClass="com.wavecom.openat.ide.ebs.build.core.multibin.addchk"/>
+							<tool id="com.wavecom.openat.ide.ebs.build.core.multibin.gendwl.bin.897091054" name="DWL binary builder [MultiBin]" superClass="com.wavecom.openat.ide.ebs.build.core.multibin.gendwl.bin"/>
+							<tool id="com.wavecom.openat.ide.ebs.build.core.multibin.cat.1749216831" name="Multipart binary aggregator" superClass="com.wavecom.openat.ide.ebs.build.core.multibin.cat"/>
+							<tool id="com.wavecom.openat.ide.ebs.build.core.multibin.aggregated.gendwl.bin.652258531" name="DWL binary builder [Aggregated]" superClass="com.wavecom.openat.ide.ebs.build.core.multibin.aggregated.gendwl.bin"/>
+							<tool id="com.wavecom.openat.ide.ebs.build.core.multibin.gendwl.wpb.797341908" name="DWL packed binary builder [MultiBin]" superClass="com.wavecom.openat.ide.ebs.build.core.multibin.gendwl.wpb">
+								<option defaultValue="com.wavecom.openat.ide.ebs.build.core.gendwl.header.bincomp" id="com.wavecom.openat.ide.ebs.build.core.gendwl.header.enabler.wpb.573498090" name="Header type" superClass="com.wavecom.openat.ide.ebs.build.core.gendwl.header.enabler.wpb" valueType="enumerated"/>
+							</tool>
+							<tool id="com.wavecom.openat.ide.ebs.build.core.wzpacker.multibin.346946197" name="Binary packer [MultiBin] [Zip]" superClass="com.wavecom.openat.ide.ebs.build.core.wzpacker.multibin"/>
+							<tool id="com.wavecom.openat.ide.ebs.build.core.wzpacker.multibin.lzma.7243168" name="Binary packer [MultiBin] [LZMA]" superClass="com.wavecom.openat.ide.ebs.build.core.wzpacker.multibin.lzma"/>
+							<tool id="com.wavecom.openat.ide.ebs.build.core.wzpacker.multibin.lzma.thumb.358186781" name="Binary packer [MultiBin] [LZMA Thumb]" superClass="com.wavecom.openat.ide.ebs.build.core.wzpacker.multibin.lzma.thumb"/>
+							<tool id="com.wavecom.openat.ide.ebs.build.core.addchk.aggr.554401144" name="Checksum computer [Aggregated]" superClass="com.wavecom.openat.ide.ebs.build.core.addchk.aggr"/>
+							<tool id="com.wavecom.openat.ide.ebs.armeabigcc.CCompiler.941290275" name="ARM EABI GCC C Compiler" superClass="com.wavecom.openat.ide.ebs.armeabigcc.CCompiler">
+								<option defaultValue="gnu.c.optimization.level.most" id="gnu.c.compiler.option.optimization.level.1008579753" name="Optimization Level" superClass="gnu.c.compiler.option.optimization.level" valueType="enumerated"/>
+								<option id="com.wavecom.openat.ide.ebs.armelfgcc.CCompiler.oat.includes.739461549" name="Include paths (-I)" superClass="com.wavecom.openat.ide.ebs.armelfgcc.CCompiler.oat.includes" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${package_loc:com.wavecom.openat.ide.spm.lib.os.model/6.51.0.201206010944}/ADL/itf&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${package_loc:com.wavecom.openat.ide.spm.lib.os.model/6.51.0.201206010944}/ADL/basic&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${package_loc:com.wavecom.openat.ide.spm.lib.plugin.model.WIP/5.54.0.201206011257}/WIP/itf&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/GreenhouseMQTT/inc}&quot;"/>
+								</option>
+								<option id="com.wavecom.openat.ide.ebs.armelfgcc.CCompilerSymbols.78989776" name="Defined symbols (-D)" superClass="com.wavecom.openat.ide.ebs.armelfgcc.CCompilerSymbols" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="__OAT_API_VERSION__=651"/>
+									<listOptionValue builtIn="false" value="__WIP_PLUGIN_VERSION__=554"/>
+									<listOptionValue builtIn="false" value="DS_TARGET_BB0"/>
+									<listOptionValue builtIn="false" value="__arm"/>
+									<listOptionValue builtIn="false" value="__GNU_GCC__"/>
+									<listOptionValue builtIn="false" value="__irq=&quot;&quot;"/>
+								</option>
+								<inputType id="com.wavecom.openat.ide.ebs.armeabigcc.CCompiler.inputType.1742514300" superClass="com.wavecom.openat.ide.ebs.armeabigcc.CCompiler.inputType"/>
+							</tool>
+							<tool id="com.wavecom.openat.ide.ebs.armeabigcc.CppCompiler.898317986" name="ARM EABI GCC C++ Compiler" superClass="com.wavecom.openat.ide.ebs.armeabigcc.CppCompiler">
+								<option defaultValue="gnu.c.optimization.level.most" id="gnu.c.compiler.option.optimization.level.2084736695" name="Optimization Level" superClass="gnu.c.compiler.option.optimization.level" valueType="enumerated"/>
+								<option id="com.wavecom.openat.ide.ebs.armelfgcc.CCompiler.oat.includes.103430870" name="Include paths (-I)" superClass="com.wavecom.openat.ide.ebs.armelfgcc.CCompiler.oat.includes" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${package_loc:com.wavecom.openat.ide.spm.lib.os.model/6.51.0.201206010944}/ADL/itf&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${package_loc:com.wavecom.openat.ide.spm.lib.os.model/6.51.0.201206010944}/ADL/basic&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${package_loc:com.wavecom.openat.ide.spm.lib.plugin.model.WIP/5.54.0.201206011257}/WIP/itf&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/GreenhouseMQTT/inc}&quot;"/>
+								</option>
+								<option id="com.wavecom.openat.ide.ebs.armelfgcc.CCompilerSymbols.1832252654" name="Defined symbols (-D)" superClass="com.wavecom.openat.ide.ebs.armelfgcc.CCompilerSymbols" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="__OAT_API_VERSION__=651"/>
+									<listOptionValue builtIn="false" value="__WIP_PLUGIN_VERSION__=554"/>
+									<listOptionValue builtIn="false" value="DS_TARGET_BB0"/>
+									<listOptionValue builtIn="false" value="__arm"/>
+									<listOptionValue builtIn="false" value="__GNU_GCC__"/>
+									<listOptionValue builtIn="false" value="__irq=&quot;&quot;"/>
+								</option>
+								<inputType id="com.wavecom.openat.ide.ebs.armeabigcc.CppCompiler.inputType.enabled.775426922" superClass="com.wavecom.openat.ide.ebs.armeabigcc.CppCompiler.inputType.enabled"/>
+							</tool>
+							<tool id="com.wavecom.openat.ide.ebs.armeabigcc.archiver.1206957731" name="ARM EABI GCC Archiver" superClass="com.wavecom.openat.ide.ebs.armeabigcc.archiver"/>
+							<tool id="com.wavecom.openat.ide.ebs.armeabigcc.CppLinker.629052799" name="ARM EABI GCC C++ Linker" superClass="com.wavecom.openat.ide.ebs.armeabigcc.CppLinker">
+								<inputType id="cdt.managedbuild.tool.gnu.c.linker.input.1693385937" superClass="cdt.managedbuild.tool.gnu.c.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="com.wavecom.openat.ide.ebs.armeabigcc.objcopy.1044313953" name="Binary copier (ARM EABI)" superClass="com.wavecom.openat.ide.ebs.armeabigcc.objcopy"/>
+							<tool id="com.wavecom.openat.ide.ebs.armeabigcc.dd.1528318218" name="Binary aligner (ARM EABI)" superClass="com.wavecom.openat.ide.ebs.armeabigcc.dd"/>
+							<tool id="com.wavecom.openat.ide.ebs.armeabigcc.dd.multi.1425143765" name="Binary aligner (ARM EABI) [Multibin]" superClass="com.wavecom.openat.ide.ebs.armeabigcc.dd.multi"/>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="inc"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings">
+				<externalSettings containerId="com.wavecom.openat.ide.ebs.build.core.settingsprovider" factoryId="org.eclipse.cdt.core.extension.container.factory">
+					<externalSetting>
+						<entry flags="BUILTIN|READONLY|RESOLVED" kind="includePath" name="${package_loc:com.wavecom.openat.ide.spm.lib.os.model/6.51.0.201206010944}/ADL/itf"/>
+						<entry flags="BUILTIN|READONLY|RESOLVED" kind="includePath" name="${package_loc:com.wavecom.openat.ide.spm.lib.os.model/6.51.0.201206010944}/ADL/basic"/>
+						<entry flags="BUILTIN|READONLY|RESOLVED" kind="includePath" name="${package_loc:com.wavecom.openat.ide.spm.lib.plugin.model.WIP/5.54.0.201206011257}/WIP/itf"/>
+						<entry flags="" kind="macro" name="__OAT_API_VERSION__" value="651"/>
+						<entry flags="" kind="macro" name="__WIP_PLUGIN_VERSION__" value="554"/>
+						<entry flags="" kind="macro" name="DS_TARGET_BB0" value=""/>
+					</externalSetting>
+				</externalSettings>
+			</storageModule>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="GreenhouseMQTT.com.wavecom.openat.ide.ebs.armeabigcc.projectType.binary.928432030" name="Executable" projectType="com.wavecom.openat.ide.ebs.armeabigcc.projectType.binary"/>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="com.wavecom.openat.ide.ebs.armeabigcc.binary.debugcfg.1115501396;com.wavecom.openat.ide.ebs.armeabigcc.binary.debugcfg.1115501396.;com.wavecom.openat.ide.ebs.armeabigcc.CppCompiler.890973274;com.wavecom.openat.ide.ebs.armeabigcc.CppCompiler.inputType.enabled.1682318992">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.wavecom.openat.ide.ebs.armeabigcc.OatArmEabiG++ScannerConfig"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.wavecom.openat.ide.ebs.armeabigcc.binary.debugcfg.1115501396;com.wavecom.openat.ide.ebs.armeabigcc.binary.debugcfg.1115501396.;com.wavecom.openat.ide.ebs.armeabigcc.CCompiler.1934980746;com.wavecom.openat.ide.ebs.armeabigcc.CCompiler.inputType.562449529">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.wavecom.openat.ide.ebs.armeabigcc.OatArmEabiGccScannerConfig"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.wavecom.openat.ide.ebs.armeabigcc.binary.releasecfg.625569173;com.wavecom.openat.ide.ebs.armeabigcc.binary.releasecfg.625569173.;com.wavecom.openat.ide.ebs.armeabigcc.CppCompiler.898317986;com.wavecom.openat.ide.ebs.armeabigcc.CppCompiler.inputType.enabled.775426922">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.wavecom.openat.ide.ebs.armeabigcc.OatArmEabiG++ScannerConfig"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.wavecom.openat.ide.ebs.armeabigcc.binary.releasecfg.625569173;com.wavecom.openat.ide.ebs.armeabigcc.binary.releasecfg.625569173.;com.wavecom.openat.ide.ebs.armeabigcc.CCompiler.941290275;com.wavecom.openat.ide.ebs.armeabigcc.CCompiler.inputType.1742514300">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.wavecom.openat.ide.ebs.armeabigcc.OatArmEabiGccScannerConfig"/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+	<storageModule moduleId="refreshScope"/>
+</cproject>
